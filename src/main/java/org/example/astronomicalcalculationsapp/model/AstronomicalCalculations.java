@@ -3,6 +3,10 @@ package org.example.astronomicalcalculationsapp.model;
 public class AstronomicalCalculations {
     private static final double G = 6.67430e-11;
 
+    private AstronomicalCalculations() {
+        throw new IllegalStateException("Utility class");
+    }
+
     public static double calculateOrbitalVelocity(double mass, double radius) {
         return Math.sqrt(G * mass / radius);
     }
