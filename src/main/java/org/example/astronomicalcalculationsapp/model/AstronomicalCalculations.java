@@ -21,7 +21,7 @@ public class AstronomicalCalculations {
     }
 
     public static double calculateOrbitalByPeriod(double period, double stdGravParam) {
-        return Math.pow((Math.pow(period, 2) * stdGravParam) / (4 * Math.pow(Math.PI, 2)), 1.0 / 3);
+        return Math.pow((Math.pow(period * 3600, 2) * stdGravParam) / (4 * Math.pow(Math.PI, 2)), 1.0 / 3);
     }
 
     public static double calculateDarkTime(double orbitAltitudeRadius, double stdGravParam, double planetRadius) {

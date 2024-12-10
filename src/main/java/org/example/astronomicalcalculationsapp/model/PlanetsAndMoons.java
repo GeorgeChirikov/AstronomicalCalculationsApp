@@ -51,6 +51,10 @@ public class PlanetsAndMoons {
                 break;
             default:
                 System.out.println("Invalid choice");
+                // Earth
+                planetMass = 5.972e24;
+                planetRadius = 6.371e6;
+                stdGravParam = 3.986004418e14;
                 break;
         }
     }
