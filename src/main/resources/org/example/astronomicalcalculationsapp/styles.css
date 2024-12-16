@@ -1,0 +1,17 @@
+.planet-dropdown {
+
+}
+
+Label {
+    -fx-text-fill: #000735;
+    -fx-font-size: 150%;
+}
+
+.altitude-label {
+    -fx-text-fill: #000735;
+    -fx-font-size: 150%;
+}
+
+.root {
+    -fx-background-color: #00c4ff;
+}

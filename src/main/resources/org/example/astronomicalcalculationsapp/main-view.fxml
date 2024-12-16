@@ -23,7 +23,7 @@
                             <Insets />
                         </VBox.margin>
                     </Label>
-                    <ChoiceBox fx:id="planetDropdown" onAction="#onPlanetSelected" prefHeight="25.0" prefWidth="198.0" value="Kerbin">
+                    <ChoiceBox fx:id="planetDropdown" styleClass="planet-dropdown" onAction="#onPlanetSelected" prefHeight="25.0" prefWidth="198.0" value="Kerbin">
                         <items>
                             <FXCollections fx:factory="observableArrayList">
                                 <String fx:value="Earth" />
@@ -39,7 +39,7 @@
                             <Insets bottom="20.0" />
                         </VBox.margin>
                     </ChoiceBox>
-                    <Label text="Enter orbit altitude (km)" />
+                    <Label text="Enter orbit altitude (km)" styleClass="altitude-label"/>
                     <TextField fx:id="orbitAltitudeField">
                         <VBox.margin>
                             <Insets bottom="20.0" />
